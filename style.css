@@ -1,0 +1,140 @@
+BODY
+{ margin-top: 0;
+  margin-left: 0;
+  background-color: black;
+}
+
+#containerA
+{ width: 751px;
+}
+
+#containerB
+{ margin-left: 200px;
+}
+
+#toprightcolumn
+{ float: right;
+}
+
+#topleftcolumn
+{ font: 80% arial;
+  color: white;
+}
+
+H1#header
+{ font-family: impact;
+  font-size: 120%;
+  font-weight: normal;
+  background-color: red;
+
+}
+
+#topleftcolumn A
+{ font-weight: bold;
+  color: white;
+  text-decoration: underline;
+}
+
+#topleftcolumn A:hover
+{ color: yellow;
+}
+
+#leftcolumn
+{ font: 80% arial;
+  color: white;
+  padding-right: 215px;
+}
+
+#leftcolumn H1
+{ margin: 0;
+  font-weight: bold;
+  font-size: 120%;
+}
+
+#rightcolumn
+{ background-color: #ffffe0;
+  padding: 5px;
+  font: 80% arial;
+  color: black;
+  float: right;
+  width: 200px;
+}
+
+#rightcolumn A
+{ color: black;
+  font-weight: bold;
+  text-decoration: underline;
+}
+
+#rightcolumn A:hover
+{ color: blue;
+}
+
+#leftcolumn A
+{ color: white;
+  font-weight: bold;
+  text-decoration: underline;
+}
+
+#leftcolumn A:hover
+{ color: yellow;
+}
+
+#aboutme
+{ background-color: #ffffe0;
+  width: 531px;
+  text-align: left;
+  font: 80% arial;
+  color: black;
+  padding: 10px;
+}
+
+#aboutme H1
+{ margin: 0;
+  font-weight: bold;
+  font-size: 120%;
+}
+
+#hline1
+{ background-color: yellow;
+  height: 1px;
+  font-size: 1px;
+  clear: both;
+  width: 551px;
+  margin-bottom: 10px;
+}
+
+#hline2
+{ background-color: yellow;
+  height: 1px;
+  font-size: 1px;
+  width: 331px;
+  clear: both;
+  margin-bottom: 15px;
+  position: relative;
+  top: 7px;
+}
+
+
+/* Begin image roll over code */
+
+* HTML A:hover
+{ visibility: visible } /* IE fix */
+
+.rollover A
+{ text-decoration: none;
+  float: left }
+
+.rollover A:hover IMG
+{ visibility: hidden }
+
+.rollover IMG
+{ border: 0 }
+
+#aboutmerollover
+{ height: 49px;
+  width: 245px;
+  background: url(images/aboutmebk.gif);
+  cursor: pointer }
+
+/* End image roll over code */
